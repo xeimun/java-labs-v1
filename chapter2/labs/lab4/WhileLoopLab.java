@@ -58,7 +58,15 @@ public class WhileLoopLab {
         // TODO: while 반복문을 사용하여 입력받은 개수만큼 피보나치 수열을 출력하세요.
         // 피보나치 수열은 0, 1로 시작하며, 그 다음 숫자부터는 바로 앞의 두 숫자의 합입니다.
         // 예: 0, 1, 1, 2, 3, 5, 8, 13, 21, ...
-        
+
+        int prev = 0;
+        int prev2 = 1;
+        for (int i = 0; i < count; i++) {
+            int sum = prev + prev2;
+            prev = prev2;
+            prev2 = sum;
+            System.out.print(sum + " ");
+        }
         
         scanner.close();
     }
