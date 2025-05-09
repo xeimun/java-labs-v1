@@ -1,17 +1,14 @@
 package chapter7.labs.lab2;
 
-import java.io.*;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 /**
  * 텍스트 파일을 생성하고 처리하는 실습
- *
+ * <p>
  * 이 실습에서는 Java의 파일 입출력 기능을 활용하여
  * 텍스트 파일을 생성, 읽기, 검색, 수정하는 다양한 작업을 수행합니다.
+ * <p>
+ * 생성, 읽기까지는 필수로 풀기(메뉴 2번까지 - createTextFile(), readTextFile())
  */
 public class TextFileIOLab {
     // 파일 경로 상수
