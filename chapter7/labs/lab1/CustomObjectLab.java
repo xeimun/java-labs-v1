@@ -51,6 +51,7 @@ public class CustomObjectLab {
         // 3. book1, book2, book3로 값 조회 시도
         Map<Book, String> map = new HashMap<>();
         map.put(book1, "베스트 셀러 1");
+        // map.put(book2, "베스트 셀러 -1");
         map.put(book3, "베스트 셀러 18");
         System.out.println(map.get(book1));
         System.out.println(map.get(book2)); // HashMap: 내부적으로 hashCode()로 버킷을 찾고, equals()로 키를 비교
